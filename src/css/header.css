@@ -19,6 +19,7 @@ header .container {
   border-radius: 50%;
   width: 176px;
   height: 176px;
+  object-fit: cover;
 }
 
 #profile > div {
