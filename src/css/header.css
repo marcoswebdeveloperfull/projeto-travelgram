@@ -7,11 +7,18 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  object-fit: cover;
 }
 
 #profile {
   display: flex;
   gap: 32px;
+}
+
+#profile img {
+  border-radius: 50%;
+  width: 176px;
+  height: 176px;
 }
 
 #profile > div {
