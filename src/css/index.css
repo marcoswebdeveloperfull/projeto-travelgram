@@ -3,3 +3,149 @@
 @import url(header.css);
 @import url(main.css);
 @import url(footer.css);
+
+@media (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+
+  header * {
+    text-align: left;
+  }
+
+  #info {
+    padding-top: 2rem;
+  }
+
+  #primary-menu li:nth-child(2),
+  #primary-menu li:nth-child(3) {
+    display: none;
+  }
+
+  .container {
+    padding-inline: 16px;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  #profile > div {
+    max-width: 100%;
+  }
+
+  main {
+    gap: 16px;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    font-size: 15px;
+  }
+
+  header * {
+    text-align: left;
+  }
+
+  #info {
+    padding-top: 2rem;
+  }
+
+  #primary-menu li:nth-child(2),
+  #primary-menu li:nth-child(3) {
+    display: none;
+  }
+
+  #profile img {
+    width: 140px;
+    height: 140px;
+  }
+
+  #profile > div {
+    max-width: 90%;
+  }
+
+  main {
+    gap: 16px;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    margin-inline: auto;
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  header * {
+    text-align: left;
+  }
+
+  #info {
+    padding-top: 2rem;
+    margin-right: 2rem;
+  }
+
+  #primary-menu li:nth-child(2),
+  #primary-menu li:nth-child(3) {
+    display: none;
+  }
+
+  #profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #profile img {
+    width: 140px;
+    height: 140px;
+  }
+
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main img {
+    width: 100%;
+    height: auto;
+  }
+
+  footer:nth-child(1) span {
+    margin-inline: auto;
+    flex-direction: column;
+    margin-right: 0;
+  }
+  
+}

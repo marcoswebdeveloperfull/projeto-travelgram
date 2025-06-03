@@ -3,8 +3,9 @@ footer {
   gap: 24px;
   padding-block: 24px;
   font: 14px/150% var(--font-family);
+  display: flex;
 }
 
 footer span:nth-child(1) {
-  margin-right: auto;
+  margin-inline: auto;
 }
